@@ -1,0 +1,143 @@
+
+.dm-mono-light {
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .dm-mono-regular {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-mono-medium {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .dm-mono-light-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .dm-mono-regular-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .dm-mono-medium-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+body {
+    background-color: #000;
+    margin: 0;
+}
+  
+header{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: rgba(0, 0, 0, 0.8);;
+    padding: 0px;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 60px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+    font-size: 18px;
+    position: relative;
+  }
+
+nav a:hover{
+    color: rgb(144, 143, 143);
+}
+
+.menu-right a.konto {
+    color: white;
+    background-color: rgb(17.85, 36.55, 48.45);
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 5px 10px white;
+}
+.menu-right a.konto:hover {
+    color: black;
+    background-color: white;
+}
+
+.hero{
+    background-image: url(tlo.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    color: white;
+}
+
+.hero h2{
+    font-size: 50px;
+}
+
+.przycisk{
+    background-color: rgb(64, 63, 63);
+    display: flex;    
+    justify-content: space-around;
+    gap: 100px;
+    color: aliceblue;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(51, 44, 44, 0.3);
+    height: 50px;
+     width: 15%;
+    margin: 0 auto;
+    border-radius: 27px;
+}
+
+.bottom {
+color: white;
+background-color: #1d1e20;
+border-radius: 10px;
+padding: 20px 30px;
+}
+
+.bottom:hover{
+    background-color: grey!important;
+    transition: all .4s;
+}
